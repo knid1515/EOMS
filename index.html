@@ -1,38 +1,50 @@
+
 <!DOCTYPE html>
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
     <meta name="theme-color" content="#08448c">
+
     <title>ครูกฤตัชญ์งานปัก | EOMS</title>
-    <meta name="description" content="ระบบบริหารจัดการงานปักเสื้อออนไลน์ Embroidery Order Management System">
+
     <style>
         * {
             box-sizing: border-box;
         }
-        html, body {
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
             width: 100%;
             height: 100%;
-            margin: 0;
             overflow: hidden;
-            background: #f4f7fb;
+            background-color: #eef5ff;
         }
+
         iframe {
             display: block;
             width: 100%;
             height: 100vh;
             height: 100dvh;
-            border: 0;
+            border: none;
         }
     </style>
 </head>
+
 <body>
-    <!-- เปลี่ยน src เป็น URL /exec จากการ Deploy เมื่อเปิดให้ลูกค้าใช้งานจริง -->
+
     <iframe
-        src="https://script.google.com/macros/s/AKfycbz8sI8ZvfuaaxPQp12w3yBIJiFomAXSkRgxx0GnCkWG/dev"
-        title="ระบบบริหารจัดการงานปักเสื้อออนไลน์ EOMS"
-        allow="clipboard-write; fullscreen"
+        id="eomsApp"
+        title="ระบบบริหารจัดการงานปักเสื้อออนไลน์"
+        src="https://script.google.com/macros/s/AKfycbxdy-MI9JgPGLZ6CXSTrt3IlAAIaf2lDGdhxkpwr5SXc4HEv_V3OFwrjxc749hw73c9/exec"
+        allow="clipboard-read; clipboard-write; fullscreen"
         allowfullscreen>
     </iframe>
+
 </body>
 </html>
